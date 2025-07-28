@@ -147,7 +147,7 @@ async def estado(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode="Markdown"
     )
 
-🛡️ Detector de entrega de guardia
+#🛡️ Detector de entrega de guardia
 
 FRAGMENTOS_GUARDIA = [
     "guardia entregada a", "se entrega guardia a",

@@ -176,8 +176,6 @@ async def detectar_guardia(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(mensaje, parse_mode="Markdown")
 #🚀 Activar bot
 
-app. add_handler(Comm andHandler ("estado" estado))
-
 # 🦜 Activar el bot y agregar manejadores
 app = ApplicationBuilder().token(TOKEN).build()
 

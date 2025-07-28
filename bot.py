@@ -178,8 +178,6 @@ async def detectar_guardia(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 app. add_handler(Comm andHandler ("estado" estado))
 
-
-
 # 🦜 Activar el bot y agregar manejadores
 app = ApplicationBuilder().token(TOKEN).build()
 
@@ -190,4 +188,3 @@ app.add_handler(CommandHandler("llegadas", llegadas))
 app.add_handler(CommandHandler("estado", estado))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, detectar_guardia))
 
-app.run_polling()

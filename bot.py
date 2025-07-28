@@ -10,7 +10,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import datetime
 
 # 🔐 Token de tu bot
-TOKEN = "TU_TOKEN_AQUI"  # ← Reemplaza esto con tu token de BotFather
+TOKEN = "8238726820:AAGU_CouD4wXuxMDMjloF76NiC3LjsPdwRY"  # ← Reemplaza esto con tu token de BotFather
 
 # 🧠 Se activa automáticamente con /start
 CHAT_ID_GLOBAL = None

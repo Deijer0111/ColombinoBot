@@ -114,7 +114,7 @@ async def recordar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"✅ Recordatorio para {hora}:\n> {mensaje}", parse_mode="Markdown")
     except:
         await update.message.reply_text("⚠️ Usa el formato: /recordar HH:MM mensaje personalizado", parse_mode="Markdown")
-📘 Comando /reglas
+#📘 Comando /reglas
 
 async def reglas(update: Update, context: ContextTypes.DEFAULT_TYPE):
     texto = """📘 Reglas del Máster de TV Educativo:

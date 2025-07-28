@@ -9,7 +9,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import datetime
 
 # 🔑 Reemplaza con tu token real
-TOKEN = "TU_TOKEN_AQUÍ"
+TOKEN = "8238726820:AAGU_CouD4wXuxMDMjloF76NiC3LjsPdwRY "
 
 # Variable para almacenar el chat donde enviar mensajes automáticos
 CHAT_ID_GLOBAL = None

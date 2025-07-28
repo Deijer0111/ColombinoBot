@@ -83,7 +83,8 @@ def programar_recordatorios_diarios():
             sticker = STICKER_HIMNO
         elif "Guardia" in mensaje:
             sticker = STICKER_GUARDIA
-        scheduler.add_job(enviar_recordatorio_programado, "cron", hour=hora, minute=minute, args=[mensaje, sticker])
+
+scheduler.add_job(enviar_recordatorio_programado, "cron", hour=hora, minute=minuto, args=[mensaje, sticker])
 
 programar_recordatorios_diarios()
 

@@ -182,4 +182,5 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("recordar", recordar))
 app.add_handler(CommandHandler("reglas", reglas))
 app.add_handler(CommandHandler("llegadas", llegadas))
-app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, detectar_guardia
+app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, detectar_guardia))
+app.run_polling() 

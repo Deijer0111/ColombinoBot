@@ -174,7 +174,7 @@ async def detectar_guardia(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else:
             mensaje += "\n🟢 ¡Guardia dentro del tiempo! ✅ Excelente puntualidad."
         await update.message.reply_text(mensaje, parse_mode="Markdown")
-🚀 Activar bot
+#🚀 Activar bot
 
 app. add_handler(Comm andHandler ("estado" estado))
 app = ApplicationBuilder().token(TOKEN).build()

@@ -125,7 +125,7 @@ async def reglas(update: Update, context: ContextTypes.DEFAULT_TYPE):
 4️⃣ Cámara lista, mente creativa 🎥  
 5️⃣ Voz firme y clara al pueblo venezolano 🇻🇪"""
     await update.message.reply_text(texto, parse_mode="Markdown")
-📊 Comando /llegadas
+#📊 Comando /llegadas
 
 async def llegadas(update: Update, context: ContextTypes.DEFAULT_TYPE):
     media = registro_llegadas.get("media_tarde", 0)
